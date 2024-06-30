@@ -1,5 +1,5 @@
 var bgimg , bg , bird , bi , g , gi , c , ci
-var GS = 1 //0 lobby 1 play 2 and
+
 
 function preload(){
 bgimg = loadImage("bg.png")
@@ -42,15 +42,10 @@ function draw() {
             bird.velocityY = -10
             }
             
-            if (frameCount % 60 === 0)
-            {
-              spawnPipes()
-            
-            
-            }
+
+
         drawSprites();
         
 }
 
 
-function  spawnPipes(){}
